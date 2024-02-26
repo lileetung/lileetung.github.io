@@ -1,0 +1,75 @@
+body, h1, p {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif; /* Replace with your preferred font */
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: #fff; /* Or any other color */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.logo a {
+    font-weight: bold;
+    font-size: 24px;
+    text-decoration: none;
+    color: #333; /* Or any other color */
+}
+
+nav a {
+    text-decoration: none;
+    color: #333; /* Or any other color */
+    margin-left: 20px;
+}
+
+.intro-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: calc(100vh - 20vh); /* Adjust to the height of your header */
+    background: #eee; /* Or any other color */
+    padding: 20px;
+    padding-top: 20px; /* Reduce top padding */
+}
+
+.intro-text {
+    max-width: 600px; /* Adjust as necessary */
+    text-align: left;
+    margin-right: 2em; /* Add some space between text and image */
+}
+
+.intro-text h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+}
+
+.intro-text p {
+    font-size: 1.2em;
+    line-height: 1.5;
+    margin-bottom: 1em;
+}
+
+button {
+    padding: 10px 20px;
+    background: #333; /* Or any other color */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-decoration: none; /* Remove underline from text */
+}
+
+button:hover {
+    background: #555; /* Darken button on hover */
+}
+
+.profile-image img {
+    max-width: 100%; /* Image will fill the container */
+    max-height: 500px; /* Limit the image's height */
+    object-fit: cover; /* This will ensure the image covers the area, and is cropped to fit */
+    border-radius: 50%; /* Make the image round */
+}
